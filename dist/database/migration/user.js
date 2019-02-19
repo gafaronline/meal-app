@@ -1,3 +1,8 @@
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 // export default {
 //     up: (queryInterface, Sequelize) => {
 //       queryInterface.createTable('Users', {
@@ -37,7 +42,7 @@
 //   };
 
 
-export default {
+exports.default = {
   up: function up(queryInterface, Sequelize) {
     return queryInterface.createTable('Users', {
       id: {

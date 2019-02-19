@@ -62,7 +62,7 @@ app.use((0, _cors2.default)());
 
 app.use(_bodyParser2.default.json());
 
-// app.use('/api-docs', express.static(path.join(__dirname, '../server/public/api-docs')));
+app.use('/api-docs', _express2.default.static(_path2.default.join(__dirname, '../server/public/api-docs')));
 
 // use the defined routes
 app.use('/', _routes2.default);

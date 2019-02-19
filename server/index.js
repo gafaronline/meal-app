@@ -24,7 +24,7 @@ app.use(cors());
 
 app.use(bodyParser.json());
 
-// app.use('/api-docs', express.static(path.join(__dirname, '../server/public/api-docs')));
+app.use('/api-docs', express.static(path.join(__dirname, '../server/public/api-docs')));
 
 // use the defined routes
 app.use('/', routes);
