@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/gafaronline/meal-app#readme",
   "dependencies": {
-    "bcrypt": "^3.0.0",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "continuation-local-storage": "^3.2.1",
     "cors": "^2.8.4",
